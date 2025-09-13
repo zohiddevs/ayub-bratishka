@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background: #f5f3ec;
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+.header {
+	background: #f5f3ec;
+	padding: 32px 0 0 0;
+	border-bottom: 2px solid #e3c08d;
+}
+.logo {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #2c2926;
+	letter-spacing: 2px;
+}
+.nav {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+.nav a {
+	color: #2c2926;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+.nav a:hover {
+	color: #e3c08d;
+}
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero {
+	display: flex;
+	background: #f5e3c8;
+	padding: 64px 0 0 0;
+	min-height: 420px;
+}
+.hero-left {
+	flex: 1;
+	padding: 48px 32px 32px 64px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hero-left h1 {
+	font-size: 2.6rem;
+	color: #2c2926;
+	margin-bottom: 24px;
+}
+.hero-left p {
+	font-size: 1.2rem;
+	margin-bottom: 32px;
+	color: #333;
+}
+.btn {
+	background: #2c2926;
+	color: #fff;
+	padding: 14px 32px;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background 0.2s;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	margin-bottom: 24px;
+	width: fit-content;
+}
+.btn:hover {
+	background: #e3c08d;
+	color: #2c2926;
+}
+.stamp {
+	display: inline-block;
+	background: #e3c08d;
+	color: #2c2926;
+	font-weight: bold;
+	border-radius: 50%;
+	padding: 12px 24px;
+	font-size: 1rem;
+	margin-top: 16px;
+	box-shadow: 0 2px 8px rgba(44,41,38,0.08);
+}
+.hero-right {
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 0 64px 0 0;
+}
+.hero-right img {
+	width: 340px;
+	border-radius: 18px;
+	box-shadow: 0 4px 24px rgba(44,41,38,0.16);
+}
+
+.collection {
+	background: #fff;
+	padding: 64px 0 32px 0;
+}
+.collection h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 48px;
+	color: #2c2926;
+	letter-spacing: 2px;
+}
+.products {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.product {
+	background: #f5f3ec;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px rgba(44,41,38,0.08);
+	padding: 24px;
+	text-align: center;
+	width: 220px;
+	transition: box-shadow 0.2s;
+}
+.product img {
+	width: 100px;
+	height: 160px;
+	object-fit: contain;
+	margin-bottom: 18px;
+}
+.product h3 {
+	font-size: 1.1rem;
+	margin-bottom: 12px;
+	color: #2c2926;
+	letter-spacing: 1px;
+}
+.product p {
+	font-size: 0.95rem;
+	color: #555;
+}
+
+.about {
+	background: #f5f3ec;
+	padding: 64px 0 32px 0;
+}
+.about-header {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	margin-bottom: 48px;
+}
+.about-left {
+	flex: 1;
+	padding: 0 32px 0 64px;
+}
+.about-left h2 {
+	font-size: 2rem;
+	color: #2c2926;
+	margin-bottom: 18px;
+}
+.about-left p {
+	font-size: 1.1rem;
+	color: #333;
+}
+.about-right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about-right img {
+	width: 340px;
+	border-radius: 18px;
+	box-shadow: 0 4px 24px rgba(44,41,38,0.16);
+}
+.about-content {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.commitment, .quality {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px rgba(44,41,38,0.08);
+	padding: 24px;
+	width: 340px;
+	margin-bottom: 24px;
+}
+.commitment img, .quality img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 12px;
+}
+.commitment h3, .quality h3 {
+	font-size: 1.1rem;
+	color: #2c2926;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+.commitment p, .quality p {
+	font-size: 0.95rem;
+	color: #555;
+}
+
+.footer {
+	background: #f5e3c8;
+	color: #2c2926;
+	padding: 32px 0 16px 0;
+	text-align: center;
+	border-top: 2px solid #e3c08d;
+}
+.footer .logo {
+	margin-bottom: 12px;
+	color: #2c2926;
+}
+.footer .nav {
+	margin-bottom: 16px;
+	justify-content: center;
+	gap: 24px;
+}
+.footer .nav a {
+	color: #2c2926;
+	margin: 0 16px;
+	font-size: 1rem;
+}
+.footer .social {
+	margin-bottom: 12px;
+}
+.footer p {
+	font-size: 0.95rem;
+	color: #2c2926;
+	margin-top: 8px;
+}
